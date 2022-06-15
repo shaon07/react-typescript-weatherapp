@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.inputBtn {
+  border: 2px solid aquamarine;
+  background: rgb(0, 255, 170);
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+  padding: 3px 5px;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+.inputBtn:hover {
+  background-color: aquamarine;
+  color: white;
+}
+input:focus {
+  border: none;
+  outline: none;
+}
+.inputbox {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 10px 0;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mainBody {
+  width: 100%;
+  background: #00000029;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerWrapper {
+  max-width: 550px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #8080809e;
+}
+.imageBox {
+  position: relative;
+  z-index: 1;
+}
+.textBox {
+  text-align: left;
+  background-image: url(https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-weather/draw1.webp);
+  /* background: #00000029; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  padding: 8rem 1rem;
+  align-items: normal;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  /* color: white; */
+}
+
+@media (min-width: 425px) {
+  .mainBody {
+    background-image: url(https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-weather/draw1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .textBox {
+    /* background: #00000029; */
+    /* color: white; */
+    background-image: url();
+  }
+  .containerWrapper {
+    box-shadow: none;
+  }
+}
