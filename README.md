@@ -6,4 +6,4 @@ live demo : https://shaonweather.netlify.app
 api : https://api.openweathermap.org/
 
 
-my portfolio : shaontechnical.blogspot.com
+my portfolio : [shaontechnical.blogspot.com](https://shaontechnical.blogspot.com)
